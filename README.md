@@ -8,14 +8,14 @@ In This Project I created a simple Calculator DApp ( harry potter themed )
 ## Deployment steps
 
 1. First install Truffle (for compiling Smart Contract) and Ganache (for importing test ether into your metamask wallet & develop a local blockchain)
-  ** npm install -g truffle ganache-cli**
+  **npm install -g truffle ganache-cli**
    
 2. Initialize truffle project
-   **mkdir calculator-dapp
+   mkdir calculator-dapp
    cd calculator-dapp
-   truffle init**
+   truffle init
 
-3. Create a file named**Calculator.sol** under contracts diretory.
+3. Create a file named **Calculator.sol** under contracts diretory.
 
 4. Then compile the contract using
    **truffle compile**
