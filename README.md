@@ -1,43 +1,45 @@
-# Calculator DApp
-In This Project I created a simple Calculator DApp ( harry potter themed )
+Calculator DApp: The Wizard's Calculator
+Welcome to Magical Calculator Dapp
 
-## Prerequisites
-- Node.js and npm installed
-- MetaMask extension installed in your browser ( import test ethers through ganache )
+Prerequisites
+Node.js and npm (Node Package Manager)
+MetaMask browser extension installed
+Ganache (for local blockchain development)
 
-## Deployment steps
+Deployment Steps
+1. Install Truffle and Ganache
+Ensure you have Truffle and Ganache installed globally:
+npm install -g truffle ganache-cli
 
-1. First install Truffle (for compiling Smart Contract) and Ganache (for importing test ether into your metamask wallet & develop a local blockchain)
-  **npm install -g truffle ganache-cli**
-   
-2. Initialize truffle project
-   mkdir calculator-dapp
-   cd calculator-dapp
-   truffle init
+3. Initialize Your Project
+Create a new directory for your DApp and initialize it with Truffle:
+mkdir Aryan_Dapp
+cd Aryan_Dapp
+truffle init
 
-3. Create a file named **Calculator.sol** under contracts diretory.
+3. Write Your Smart Contract
+Create a Solidity file named Calculator.sol under the contracts directory.
 
-4. Then compile the contract using
-   **truffle compile**
-   then you got .json file which contains your **ABI**.
+4. Compile Your Smart Contract
+Compile your contract to generate the ABI (Application Binary Interface) file:
+truffle compile
 
-5. Then open Ganache and select quickstart.
+6. Start Ganache
+Launch Ganache and select the Quickstart option to set up a local blockchain.
 
-6. Then write command in you project directory
-   **truffle migrate --network development**
-   then you got your **contract address** then paste it in app.js file.
+7. Deploy Your Contract
+Deploy your contract to the local blockchain:
+truffle migrate --network development
+Paste the contract address into the app.js file.
 
-7. Making of Frontend
-   npm init -y
-   npm install lite-server --save-dev
+7. Create the Frontend
+Initialize your project and install Lite Server for the frontend:
+npm init -y
+npm install lite-server --save-dev
 
-8. Then start the development server
-   npm start
+8. Start the Development Server
+Launch the development server:
+npm start
 
-9. Now you are able to interact with your contract.
-![Uploading image.png…]()
+Now, behold the magic of the Wizard's Calculator as you interact with your contract through the frontend!
 
-    
-
-   
-   
