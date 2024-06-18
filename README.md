@@ -37,6 +37,14 @@ In This Project I created a simple Calculator DApp ( harry potter themed )
 9. Now you are able to interact with your contract.
 
 
+## Authors
+
+Aryan Sharma
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
 
     
 
